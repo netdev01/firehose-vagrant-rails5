@@ -21,6 +21,8 @@ Step 2:  Get the files for your development environment
 
 Download and unzip the following file: [vagrant.zip](https://github.com/FirehoseProject/firehose-vagrant-rails5/raw/master/tools/vagrant.zip?raw=true) to your __Desktop__. Unzip the file onto your Desktop, so it creates a folder called `vagrant` on your Desktop.  This is where all your web development environment will live.
 
+After you expand the zip file, if the resulted directory is called "firehose-vagrant", just rename it to "vagrant".
+
 Step 3: Install the tools
 -------
 
@@ -40,6 +42,9 @@ A command prompt will come up, and then run the following two commands:
 
 ```
 cd Desktop\vagrant
+
+If "cd Desktop\vagrant" doesn't work on Windows, just move it to c:\ drive and run "cd c:\vagrant".
+
 ```
 
 Then type this command.  It will take a few moments to complete (it needs to download a very large file):
